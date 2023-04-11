@@ -7,9 +7,8 @@
 /* TITLE AND PARAGRAPH */
 
 .container{
-    margin-right: 155px;
-    margin-left: 155px;
-    max-width: 1170px;
+    margin-right: 150px;
+    margin-left: 150px;
     text-align: center;
 }
 
@@ -26,37 +25,45 @@ h1{
 
 img{
     height: 80px;
-    margin-right: 10px;
     float: left;
+    margin-right: 10px;
 }
-
 
 .container-photo{
-    content: '';
-    display: table;
-    clear: both;
     margin-top: 30px;
     display: inline-block;
-    margin-left: 20px;
+    width:calc(100% / 3 - 50px) ;
 }
 
-.riga{
+.cols{
+    contain: "";
+    display: table;
+    clear: both;
+    height: 80px;
+    width: 250px;
+}
+
+.row{
     background-color: black;
-    width: 300px;
     color: white;
     height: 80px;
     text-align: left;
-    padding: 10px;
+    float: right;
+    width: 250px;
 }
 
 .margin{
-    margin-bottom: 2px;
     font-family: 'Fredoka', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 a{
     text-decoration: none;
     color: #4da2C6;
+    display: inline;
+    font-size: 11px;
 }
+
 
 /* FINE MAIN */
