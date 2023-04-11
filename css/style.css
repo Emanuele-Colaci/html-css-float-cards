@@ -4,3 +4,16 @@
     box-sizing: border-box;
 }
 
+.container{
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+h1{
+    color: #e53070;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Fredoka', sans-serif; 
+    
+}
