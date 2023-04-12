@@ -39,14 +39,12 @@ img{
     content: "";
     display: table;
     clear: both;
-    height: 80px;
     width: 250px;
 }
 
 .row{
     background-color: black;
     color: white;
-    height: 80px;
     text-align: left;
     float: right; 
     width: 250px;
